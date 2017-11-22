@@ -1,9 +1,14 @@
-# ConLMD, Convolutional network applied to imaging.
+# ConvLMD, Convolutional network applied to Laser Metal Deposition.
 
-Basing on the datasets taken for the LMD process. We have ddeveloped a software
-package to make machine learning and data analytics.
-Using the scikit learn and tensorflow library, we have some script were you could
-load a images dataset and get a prediction model.
+Based on the datasets recorded from LMD process, this project provides the 
+basic sctructure to develop a convolutional neural network software for process
+parametrization and defects detection.
+
+As an example, you can run this software downloading the source files and executing 
+src/power_speed_prediction.py, using as argument the path to the dataset.
+If you want to use our example dataset, it is available in Zenodo platform:
+
+https://zenodo.org/record/1051003#.WhWmHhZryoo
 
 <!-- Existing image-based monitoring and control approaches in laser processing
 resort to embedded and PC-based platforms. Flows of data easily achieve tens
