@@ -97,12 +97,12 @@ def load_npy_data(dataset_folder,n_test):
 
 def main():
 
-    TRAINING_ITERS = 150000
+    TRAINING_ITERS = 1500000
     BATCH_SIZE = 128
     n_input=28*28
     n_classes = 2
     DISPLAY_STEP = 100
-    dropout = 0.75
+    dropout = 0.5
     seed = 13
 
     tf.set_random_seed(seed)
@@ -163,7 +163,7 @@ def main():
 
 
 
-        saver.save(sess, "model.ckpt")
+        saver.save(sess, "./model.ckpt")
 
         predicted2 = None
 
