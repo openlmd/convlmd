@@ -5,10 +5,11 @@ basic sctructure to develop a convolutional neural network software for process
 parametrization and defects detection.
 
 As an example, you can run this software downloading the source files and executing 
-src/power_speed_prediction.py, using as argument the path to the dataset.
+src/dilution.py, src/height.py or src/power_speed.py using as argument the path to the dataset
+or extracting it inside the src folder.
 If you want to use our example dataset, it is available in Zenodo platform:
 
-https://zenodo.org/record/1051003#.WhWmHhZryoo
+https://zenodo.org/record/1556404#.W_wd3MtKjCI
 
 <!-- Existing image-based monitoring and control approaches in laser processing
 resort to embedded and PC-based platforms. Flows of data easily achieve tens
